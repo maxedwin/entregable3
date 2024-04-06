@@ -1,0 +1,32 @@
+.app {
+    background-color: #073138;
+    color: white;
+}
+.banner {
+    background-image: url('./images/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Ajusta la altura según tu imagen */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+}
+.app__title {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    color: white;
+    top: 2em;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro con transparencia */
+    padding: 10px 20px; /* Ajusta según sea necesario */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center;
+   
+}
+.container-resident{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}

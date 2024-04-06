@@ -1,0 +1,54 @@
+
+.location {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.8em;
+    background-color: #062226;
+    padding: 1.5em 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.location__name {
+    text-align: center;
+    color: #0afb3a;
+    font-size: 1.8rem;
+    margin-bottom: 0.8em;
+}
+
+.location__list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 0.5em;
+}
+
+.location__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+.location__label {
+    font-weight: 500;
+}
+.location__value {
+    color: #999;
+    font-weight: 300;
+}
+
+/* ara adaptar el diseño en pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    .location__list {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .location__item {
+        width: 100%;
+    }
+}
